@@ -12,7 +12,7 @@ export EDITOR='vim'
 unsetopt correct_all
 
 # a few aliases I like
-alias gs='git status'
+alias gs='git status -sb'
 alias gd='git diff'
 alias tlog='tail -f log/development.log'
 
