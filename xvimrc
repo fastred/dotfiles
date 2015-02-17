@@ -1,0 +1,24 @@
+set nocompatible    " Use vim defaults
+set showcmd     " show partial commands below the status line
+set scrolloff=3 " have some context around the current line always on screen
+
+let mapleader=","
+let maplocalleader = ","
+set hidden      " backgrounding buffers
+
+set expandtab                     " use spaces, not tabs
+
+" proper search
+set incsearch
+set ignorecase
+set smartcase
+set wrap
+set wrapscan
+set gdefault
+
+"
+imap jj <Esc>
+
+" delete without yanking
+" nnoremap <leader>d "_d
+" nnoremap <leader>d "_d
