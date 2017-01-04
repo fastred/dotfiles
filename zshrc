@@ -13,5 +13,3 @@ source $ZSH/oh-my-zsh.sh
 
 # load common aliases and env variables
 [[ -f ~/.profile ]] && .  ~/.profile
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
