@@ -11,3 +11,5 @@ source $ZSH/oh-my-zsh.sh
 
 # load common aliases and env variables
 [[ -f ~/.profile ]] && .  ~/.profile
+
+alias derived_data_delete="rm -rf ~/Library/Developer/Xcode/DerivedData"
