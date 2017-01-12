@@ -13,3 +13,5 @@ source $ZSH/oh-my-zsh.sh
 [[ -f ~/.profile ]] && .  ~/.profile
 
 alias derived_data_delete="rm -rf ~/Library/Developer/Xcode/DerivedData"
+
+export PATH="$HOME/.fastlane/bin:$PATH"
