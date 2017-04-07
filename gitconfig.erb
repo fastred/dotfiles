@@ -12,6 +12,8 @@
 	d = diff --color-words
 	dh = diff --color-words head
 	cleanup = "!git branch --merged | grep -v master | grep -v develop | xargs -n 1 git branch -d"
+	reho = !git fetch && git reset --hard origin/`git rev-parse --abbrev-ref HEAD`
+	fdev = fetch origin develop:develop
 [color]
 	diff = auto
 	status = auto
@@ -38,4 +40,3 @@
   tool = opendiff
 [mergetool "mergepbx"]
   cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
-
