@@ -16,6 +16,7 @@
 	fdev = fetch origin develop:develop
 	undo-commit = reset --soft HEAD~1
   wip = !git commit -a -m "WIP"
+  pb = !git checkout $(git branch | selecta)
 [color]
 	diff = auto
 	status = auto
