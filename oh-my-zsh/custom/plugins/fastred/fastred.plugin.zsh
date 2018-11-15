@@ -11,10 +11,10 @@ export EDITOR='vim'
 # autocorrect is more annoying than helpful
 unsetopt correct_all
 
-# a few aliases I like
 alias gs='git status -sb'
 alias gd='git diff'
 alias tlog='tail -f log/development.log'
 
 # add plugin's bin directory to path
 export PATH="$(dirname $0)/bin:$PATH"
+
